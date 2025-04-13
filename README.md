@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-# westarinterfaces
-
-This is a project which includes all of the APIs wich OTAs.
+This is a project which includes all of the APIs with OTAs.
 =======
 # Simple Java API Service
 
@@ -153,5 +150,3 @@ If you prefer running the application in a Docker container, perform the followi
    ```
 8. Run the Docker container using the container description `src/docker/app.yml`:
 9. Access the API documentation at the appropriate Docker container IP address and port: `http://localhost:8443/swagger-ui.html`.
-
->>>>>>> develop
