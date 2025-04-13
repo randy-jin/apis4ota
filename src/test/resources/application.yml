@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: westar-apis
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://westarreplicadb.ch7umsualqcz.ca-central-1.rds.amazonaws.com:3306/westar_dev?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
+    username: admin
+    password: 2024_Westar-Replica
+  jmx:
+    enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    open-in-view: false
+    hibernate:
+      ddl-auto: create-drop
+
+server:
+  port: 10344
+  address: localhost
+
+application:
+  api-key: test
