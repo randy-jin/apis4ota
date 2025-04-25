@@ -18,6 +18,7 @@
 - **Build Tool**: Maven
 - **Database**: (Specify if applicable, e.g., MySQL, PostgreSQL)
 - **Authentication**: (Specify if using JWT, OAuth, or another mechanism)
+- **Shared Cache**: Redis (Used to cache authentication data)
 
 ## Getting Started
 
